@@ -4,11 +4,11 @@ lightBoxClose = function() {
 
 function daftar()
 {
-    let namaPengarang = document.querySelector(".namaPengarang");
-    let judulBuku = document.querySelector(".bookCover");
-    let idBuku = document.querySelector(".idBuku");
-    let tanggalInput = document.querySelector(".tanggalInput");
-    let status = document.querySelector(".status");
+    let namaPengarang = document.querySelector("#namaPengarang");
+    let judulBuku = document.querySelector("#judulBuku");
+    let idBuku = document.querySelector("#idBuku");
+    let tanggalInput = document.querySelector("#tanggalInput");
+    let status = document.querySelector("#status");
 
     if(namaPengarang.value == "")
         {
