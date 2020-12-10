@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tugasPR.css">
+    <script src="inputbuku.js"></script>
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftContainer">
+            <img src="perpus1.jpg" alt="gambar tidak bisa ditampilkan">
+        </div>
+        <div class="rightContainer">
+            <h1 id="perpus">Perpustakaan Online</h1>
+            <h1 id="hezabook">HEZABOOK</h1>
+            <h3>Get Your Own Book</h3>
+            <form name="form" class="form">
+                <div class="namaPengarang">
+                    <h5>Nama Pengarang</h5>
+                    <input type="text" id="namaPengarang">
+                </div>
+                <div class="bookCover">
+                    <h5>Judul Buku</h5>
+                    <input type="text" id="judulBuku">
+                </div>
+                <div class="idBuku">
+                    <h5>ID Buku</h5>
+                    <input type="number" id="idBuku">
+                </div>
+                <div class="tanggalInput">
+                    <h5>Tanggal Input</h5>
+                    <input type="text" id="tanggalInput">
+                </div>
+                <div class="status">
+                    <h5>Status Buku</h5>
+                    <input type="text" id="status">
+                </div>
+                <div class="button">
+                    <button value="Daftar" type="button" onclick="daftar()"><b>Simpan</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="tabelBuku">
+        <div class="head">
+            <h1>Daftar Buku</h1>
+            <p>Daftar buku yang telah tersimpan!!</p>
+        </div>
+        <div class="tabel">
+            <table id="daftarBuku">
+                <tr id="tab">
+                    <td id="namaPengarang">Nama Pengarang</td>
+                    <td id="judulBuku">Judul Buku</td>
+                    <td id="idBuku">ID Buku</td>
+                    <td id="tanggalInput">Tanggal Input</td>
+                    <td id="status">Status</td>
+                </tr>
+                <tr>
+                    <td>Aula Fajrun Khalilurahman</td>
+                    <td>Melukis senja</td>
+                    <td>001</td>
+                    <td>10-10-2020</td>
+                    <td>Tersedia</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="lightbox">
+        <div class="iFrameContainer">
+            <div class="toolbarLB">
+                <span class="closeLB" onclick="lightBoxClose()">&times;</span>
+            </div>
+            <h1>Selamat Datang</h1>
+            <p>Di Perpustakaan Online HEZABOOK</p>
+            <button class="closeOK" onclick="lightBoxClose()">ok</button>
+        </div>
+    </div>
+</body>
+</html>

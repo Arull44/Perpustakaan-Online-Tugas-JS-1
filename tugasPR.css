@@ -1,0 +1,206 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+	background: url(pastelijo.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+.container{
+	display: flex;
+	margin: auto;
+}
+
+.leftContainer{
+	background-image: url("perpus1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 50%;
+	margin: auto;
+}
+
+.leftContainer img{
+	height: 100%;
+}
+
+#perpus{
+	text-align: center;
+	font-size: 40px;
+}
+
+#hezabook{
+	color: rgba(255, 5, 5, 0.856);
+}
+
+.rightContainer{
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	padding: 20px 20px;
+}
+.rightContainer h1{
+	text-align: center;
+}
+
+.rightContainer h3{
+	text-align: center;
+}
+
+.form{
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+}
+
+.form h5{
+	margin-top: 10px;
+}
+.form input[type=text]{
+	width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid grey;
+	padding: 0px 5px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.form input[type=number]{
+	width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid grey;
+	padding: 0px 5px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.form button{
+	width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid grey;
+	padding: 0px 5px;
+	outline: none;
+	margin-top: 30px;
+}
+
+.form input[type=text]:hover{
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+
+.form input[type=number]:hover{
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+
+.form button:hover{
+	background-color: cyan;
+	color: black;
+	cursor: pointer;
+}
+
+.tabelBuku{
+	height: 650px;
+}
+.tabelBuku .head{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.tabelBuku .head h1{
+	color: brown;
+}
+
+table{
+	background-color: teal;
+	width: 1200px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#tab{
+	background-color: #7986CB;
+    color: white;
+    height: 40px;
+}
+
+table td{
+	border: 2px solid black;
+	width: 100px;
+}
+
+.tabel{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5)
+}
+.toolbarLB {
+	text-align: right;
+	padding: 3px;
+}
+.closeLB {
+	color: red;
+	cursor: pointer;
+}
+
+.lightbox .iFrameContainer {
+	vertical-align: middle;
+	background: #CCC;
+	padding: 2px;
+	width: 500px;
+	height: 250px;
+}
+
+.lightbox .iFrameContainer h1{
+	text-align: center;
+	color: steelblue;
+}
+
+.lightbox .iFrameContainer p{
+	text-align: center;
+}
+
+.lightbox .iFrameContainer .closeOK{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin-top: 60px;
+	width: 60px;
+}
+
+.lightbox.closed {
+	display: none;
+}
+
+.closeOK {
+	color: black;
+	font-size: 20px;
+}
+.closeOK:hover {
+	color: steelblue;
+	cursor: pointer;
+}
